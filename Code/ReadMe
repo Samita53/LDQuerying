@@ -1,0 +1,32 @@
+Read me
+
+Steps to upload the index on Jena Fuseki Server:
+
+1. Download the index files from the link below:
+
+https://drive.google.com/file/d/1nUHTVij_lgAWKIpbxTVzANzATl9ds64B/view?usp=sharing
+
+2. Install Jena Fuseki server from the following link.
+ 
+https://jena.apache.org/documentation/fuseki2/#download-fuseki
+
+3. After installation, copy the HDT_Complete_Index.ttl file in /hdt-java/hdt-fuseki/target/hdt-fuseki-2.1-SNAPSHOT-distribution/hdt-fuseki-2.1-SNAPSHOT/bin folder. 
+
+4. Update the hdt:fileName "/home/username/index_dir" for all nine files in HDT_Complete_Index.ttl file where the index files are stored on your system.
+
+4. Start the Jena Fuseki Server using the following command:
+
+~/hdt-java/hdt-fuseki/target/hdt-fuseki-2.1-SNAPSHOT-distribution/hdt-fuseki-2.1-SNAPSHOT/bin$ ./hdtEndpoint.sh --config=HDT_Complete_Index.ttl
+
+
+Steps to execute query:
+
+1. To execute the SPARQL queries, you must have jar files on the path as provided in libs folder.
+
+2. Run the Hybrid_Querying class for executing SPARQL queries. 
+
+
+
+
+
+
