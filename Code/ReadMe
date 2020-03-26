@@ -8,7 +8,7 @@ https://drive.google.com/file/d/1nUHTVij_lgAWKIpbxTVzANzATl9ds64B/view?usp=shari
 
 2. Install Jena Fuseki server from the following link.
  
-https://downloads.apache.org/jena/binaries/
+https://github.com/rdfhdt/hdt-java
 
 3. After installation, copy the HDT_Complete_Index.ttl file in /hdt-java/hdt-fuseki/target/hdt-fuseki-2.1-SNAPSHOT-distribution/hdt-fuseki-2.1-SNAPSHOT/bin folder. 
 
