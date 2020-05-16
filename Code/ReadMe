@@ -23,7 +23,9 @@ Steps to execute query:
 
 1. To execute the SPARQL queries, you must have jar files on the path as provided in libs folder.
 
-2. Run the Hybrid_Querying class for executing SPARQL queries. 
+2. You need to provide a SPARQL query in a file (refer the format as provided in sample query).
+
+3. Run the Hybrid_Querying class for executing SPARQL queries. 
 
 
 
